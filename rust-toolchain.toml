@@ -1,0 +1,7 @@
+# SPDX-FileCopyrightText: 2024 Rivos Inc.
+#
+# SPDX-License-Identifier: LicenseRef-Rivos-Internal-Only
+
+[toolchain]
+channel = "stable"
+components = [ "rustfmt", "clippy"]

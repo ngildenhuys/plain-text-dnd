@@ -1,0 +1,9 @@
+[package]
+name = "plain-text-dnd"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4.0"      # Web framework
+serde = { version = "1.0", features = ["derive"] }  # Serialization/deserialization
+serde_yaml = "0.8"      # YAML handling
